@@ -1,11 +1,14 @@
-<div align="center">
-  <p align="right">
+<table>
+<tr>
+<td align="center" width="85%">
+<h1>Hi there 👋, I'm Riya Das</h1>
+</td>
+
+<td align="right" width="15%">
 <img src="https://komarev.com/ghpvc/?username=riya1689&label=Profile%20Views&color=0e75b6&style=flat-square" alt="riya1689" />
-</p>
-  <h1>Hi there 👋, I'm Riya Das </h1>
-  <h2>Software Engineer</h2>
-  <h4>Building scalable system architectures and optimizing application latency using modern technologies.</h4>
-</div>
+</td>
+</tr>
+</table>
 
 ### 
 
@@ -23,7 +26,7 @@ Dedicated to building scalable, maintainable systems with a strong emphasis on p
 - 🔮 **Technical Explorations:** Beyond web technologies, I actively engineer solutions incorporating **Go (Golang)**, workflow automation via **n8n**, **AI/ML** models, and **Retrieval-Augmented Generation (RAG)** systems.
 - 💡 **Key Projects:** Proud architect of **[RAS Academic Point](https://ras-ems-frontend.vercel.app/)** (a comprehensive Education Management System & Learning Platform) and **[Neighbo](https://neighbo-frontend.vercel.app/)** (an AI-integrated social and content monetization platform).
 - 💼 **Status:** Currently open to **Software Engineer** & **Full-Stack Developer** opportunities.
-- 📄 **Portfolio Details:** Feel free to check out my **[Resume](https://drive.google.com/file/d/1CYJ0_02lfekKKqKl_h7iuXD_QhCeIiId/view?usp=sharing)** and **[Portfolio| Riya Das| Software Engineer](https://riya-das-full-stack-developer.vercel.app/)**for more details.
+- 📄 **Portfolio Details:** Feel free to check out my **[Resume](https://drive.google.com/file/d/1I6McMSsElrPnd63RFU55srd72YVdeJuO/view?usp=sharing)** and **[Portfolio| Riya Das| Software Engineer](https://riya-das-full-stack-developer.vercel.app/)**for more details.
 
 ---
 ### 📫 Connect with Me
