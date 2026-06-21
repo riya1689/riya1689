@@ -1,14 +1,19 @@
-<table>
-<tr>
-<td align="center" width="85%">
-<h1>Hi there 👋, I'm Riya Das</h1>
-</td>
-
-<td align="right" width="15%">
+<div align="center">
+  <p align="right">
 <img src="https://komarev.com/ghpvc/?username=riya1689&label=Profile%20Views&color=0e75b6&style=flat-square" alt="riya1689" />
-</td>
-</tr>
-</table>
+</p>
+  <h1>Hi there 👋, I'm Riya Das </h1>
+  <h2>Software Engineer</h2>
+  <h4>Building scalable system architectures and optimizing application latency using modern technologies.</h4>
+</div>
+
+### 
+
+I am a Software Engineer focused on building scalable, security-first full-stack web applications by leveraging **Data Structures & Algorithms (DSA)** to optimize runtime efficiency and first-load performance. 
+
+I architect clean, modular frontends using **Next.js (App Router)** and **React**, paired with event-driven, type-safe backends powered by **Express.js** and **TypeScript**. On the data and infrastructure layer, I optimize relational and non-relational ecosystems using **PostgreSQL**, **MongoDB**, and **Prisma ORM**, alongside **Redis** for distributed caching and **Docker** for environment-agnostic containerization. To guarantee resilient architectures, I implement enterprise-grade authentication using **BetterAuth**, **Google OAuth**, and **JWT**. 
+
+Dedicated to building scalable, maintainable systems with a strong emphasis on performance, reliability, and security.
 
 ### 
 
@@ -26,13 +31,13 @@ Dedicated to building scalable, maintainable systems with a strong emphasis on p
 - 🔮 **Technical Explorations:** Beyond web technologies, I actively engineer solutions incorporating **Go (Golang)**, workflow automation via **n8n**, **AI/ML** models, and **Retrieval-Augmented Generation (RAG)** systems.
 - 💡 **Key Projects:** Proud architect of **[RAS Academic Point](https://ras-ems-frontend.vercel.app/)** (a comprehensive Education Management System & Learning Platform) and **[Neighbo](https://neighbo-frontend.vercel.app/)** (an AI-integrated social and content monetization platform).
 - 💼 **Status:** Currently open to **Software Engineer** & **Full-Stack Developer** opportunities.
-- 📄 **Portfolio Details:** Feel free to check out my **[Resume](https://drive.google.com/file/d/1I6McMSsElrPnd63RFU55srd72YVdeJuO/view?usp=sharing)** and **[Portfolio| Riya Das| Software Engineer](https://riya-das-full-stack-developer.vercel.app/)**for more details.
+- 📄 **Portfolio Details:** Feel free to check out my **[Resume](https://drive.google.com/file/d/1I6McMSsElrPnd63RFU55srd72YVdeJuO/view?usp=sharing)** and **[Portfolio| Riya Das| Software Engineer](https://riya-das-full-stack-developer.vercel.app/)** for more details.
 
 ---
 ### 📫 Connect with Me
 
 <p align="center">
-  <a href="mailto:riyaratri24@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:riya.das.dev26@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/riya-das8916" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.facebook.com/xreschandrid.riya.3" target="blank"><img align="center" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 </p>
@@ -138,7 +143,7 @@ Neighbo – AI-Powered Social Networking & Content Monetization Platform.
 
 📬 **Feel free to explore my repositories or reach out for collaboration opportunities!**
 <p align="center">
-  <a href="mailto:riyaratri24@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:riya.das.dev26@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/riya-das8916" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.facebook.com/xreschandrid.riya.3" target="blank"><img align="center" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
 </p>
