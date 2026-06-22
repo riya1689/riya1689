@@ -23,7 +23,7 @@ Dedicated to building scalable, maintainable systems with a strong emphasis on p
 - 🔮 **Technical Explorations:** Beyond web technologies, I actively engineer solutions incorporating **Go (Golang)**, workflow automation via **n8n**, **AI/ML** models, and **Retrieval-Augmented Generation (RAG)** systems.
 - 💡 **Key Projects:** Proud architect of **[RAS Academic Point](https://ras-ems-frontend.vercel.app/)** (a comprehensive Education Management System & Learning Platform) and **[Neighbo](https://neighbo-frontend.vercel.app/)** (an AI-integrated social and content monetization platform).
 - 💼 **Status:** Currently open to **Software Engineer** & **Full-Stack Developer** opportunities.
-- 📄 **Portfolio Details:** Feel free to check out my **[Resume](https://drive.google.com/file/d/1I6McMSsElrPnd63RFU55srd72YVdeJuO/view?usp=sharing)** and **[Portfolio| Riya Das| Software Engineer](https://riya-das-full-stack-developer.vercel.app/)** for more details.
+- 📄 **Portfolio Details:** Feel free to check out my **[Resume](https://drive.google.com/file/d/1I6McMSsElrPnd63RFU55srd72YVdeJuO/view?usp=sharing)** and **[Portfolio](https://riya-das-full-stack-developer.vercel.app/)** for more details.
 
 ---
 ### 📫 Connect with Me
@@ -93,22 +93,25 @@ Dedicated to building scalable, maintainable systems with a strong emphasis on p
 
 ## 🚀 Key Projects
 
-### 🎓 RAS Academic Point | **[Live Demo](https://ras-ems-frontend.vercel.app/)**
+### 🎓 RAS Academic Point | **[Live Demo](https://ras-ems-frontend.vercel.app/)**| **[Frontend Source Code](https://github.com/riya1689/RAS-academic-point-frontend)**| **[Backend Source Code](https://github.com/riya1689/RAS-academic-point-backend)** 
 Education Management System & Learning Platform for students, teachers, guardians, and admins.
-- **Tech Stack:** Next.js, Express.js, PostgreSQL, Redis, Docker, Nginx, Google Meet/Classroom APIs, Stripe/SSLCommerz.
-- **Core Engineering:**
-  * Implemented an **automated multi-role RBAC (Role-Based Access Control)** system secured via JWT and Better Auth.
-  * Integrated **Redis** for efficient leaderboard caching, OTP storage, and API rate limiting to reduce database load.
-  * Architected a real-time classroom support queue using active session validation and instant UI updates via React state management.
-  * **Containerized the entire infrastructure** (Frontend, Backend, Postgres, Redis, Nginx) using Docker for a seamless, cloud-agnostic deployment workflow.
+- **Role-Based Security:** Engineered an isolated multi-role RBAC system secured by JWT cookies and bcrypt hashing; protected sensitive academic and billing data from unauthorized access.
+- **Database Caching:** Configured a Redis in-memory storage layer to cache global leaderboard data and temporary OTP sequences; Achieved O(1) in-memory OTP lookup with automatic expiration (TTL) if 350 OTPs/day. Each OTP requires INSERT + SELECT + DELETE. Without Redis ~1050 database operations/day and with Redis 0 PostgreSQL operations for OTP lifecycle. In that way, reduced OTP-related database operations by nearly 100%.
+- **Real-Time Queue Management:** Built a concurrent classroom support queue with active session validation to handle simultaneous student entries; tracked exact chronological serial numbers to organize teacher workflows and prevent race conditions.
+- **Workflow Automation:** Built an asynchronous 1 to 1 support session scheduling engine with waitlist synced with Google Calendar and Meet API webhooks; automated virtual workspace setups, cutting manual administrative work.
+- **Containerized Infrastructure:** Packed the complete stack (Next.js, Express, PostgreSQL, Redis, Nginx) into multi-container Docker Compose environments; removed local-vs-production environment bugs, speeding up deployments.
+  
+**Tech Stack:** Next.js, TypeScript, Node.js, Express.js, PostgreSQL, Google meet,Prisma, Better Auth, Stripe, Redis, Docker
 
-### 🏡 Neighbo | **[Live Demo](https://neighbo-frontend.vercel.app/)**
-Neighbo – AI-Powered Social Networking & Content Monetization Platform.
-- **Tech Stack:** Next.js (App Router), React 19, Node.js, Express, TypeScript, PostgreSQL, Prisma, Redis, SSLCommerz, Google Gemini AI.
-- **Core Engineering:** 
-  * Designed and built a **custom multi-tier algorithmic feed engine** that scores and ranks posts based on user location, social relevance, network engagement, and an automated "seen penalty" to maintain freshness.
-  * Optimized backend performance using Node.js non-blocking I/O alongside **PostgreSQL row-level locking** to ensure strict data consistency during concurrent high-traffic events (e.g., simultaneous upvotes/purchases).
-  * Integrated **SSLCommerz** for secure premium post micro-transactions and automated subscription workflows.
+### 🏡 Neighbo | **[Live Demo](https://neighbo-frontend.vercel.app/)**| **[Frontend Source Code](https://github.com/riya1689/neighbo-frontend)**| **[Backend Source Code](https://github.com/riya1689/neighbo-backend)**
+Neighbo – AI-Powered Social Networking & Content Monetization Platform. 
+- **Backend Performance:** Built an asynchronous, non-blocking REST API by offloading database operations using Prisma promises; prevented server downtime and dropped API latency during high-traffic spikes.
+- **Feed Optimization:** Designed a multi-tiered feed algorithm scoring content by locality (+50 pts) and applying an impression penalty (-45 pts) for seen posts; increased user retention by serving fresh, hyper-local content.
+- **Data Transparency:** Engineered a client-side PDF generation engine to export transactional cash memos; increased platform reliability and data transparency for users.
+- **Transaction Safety:** Handled secure SSLCommerz payments using PostgreSQL row-level locking and unique cuid matching; prevented race conditions and eliminated duplicate billing errors.
+- **AI Integration:** Linked Google Gemini AI via fast, low-latency Axios pipelines; improved user experience by adding smart, interactive chat features.
+  
+**Tech Stack:** Next.js, TypeScript, Node.js, Express.js, PostgreSQL, Prisma, Google OAuth, Gemini AI, SSLCommerz
 
 ---
 
