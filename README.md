@@ -11,7 +11,7 @@
 
 I am a Software Engineer focused on building scalable, security-first full-stack web applications by leveraging **Data Structures & Algorithms (DSA)** to optimize runtime efficiency and first-load performance. 
 
-I architect clean, modular frontends using **Next.js (App Router)** and **React**, paired with event-driven, type-safe backends powered by **Express.js** and **TypeScript**. On the data and infrastructure layer, I optimize relational and non-relational ecosystems using **PostgreSQL**, **MongoDB**, and **Prisma ORM**, alongside **Redis** for distributed caching and **Docker** for environment-agnostic containerization. To guarantee resilient architectures, I implement enterprise-grade authentication using **BetterAuth**, **Google OAuth**, and **JWT**. 
+I architect clean, modular frontends using **Next.js (App Router)** and **React**, paired with event-driven, type-safe backends powered by **Express.js** and **TypeScript**. On the data and infrastructure layer, I optimize relational and non-relational ecosystems using **PostgreSQL**, **MongoDB**, and **Prisma ORM**, alongside **Redis** for distributed caching and **Docker** for environment-agnostic containerization. Experienced in implementing secure authentication, third-party & API integrations using **Better Auth**, **Stripe**, **SSL Commerz**, **Gemini AI**, **Google meet** , and scalable state management using **Redux** and **Zustand**.
 
 Dedicated to building scalable, maintainable systems with a strong emphasis on performance, reliability, and security.
 
